@@ -1,0 +1,16 @@
+[package]
+name = "recipeshare-testnet"
+version = "1.0.0"
+authors = []
+
+[addresses]
+moduleaddr='0x56ab77cbb2c50f9a715ea05f42ca2bd89de1044051ae1990e2715324c37f9fa4'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
